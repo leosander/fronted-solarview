@@ -1,5 +1,4 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import Avatar from '@material-ui/core/Avatar';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -9,7 +8,6 @@ import logoImg from '../../assets/logo-solarview.png';
 import Grid from '@material-ui/core/Grid';
 import TableComponent from '../../Components/TableComponent';
 import Button from '@material-ui/core/Button';
-import api from '../../services/api';
 import styles from './styles';
 import { useAuth } from '../../hooks/useAuth';
 
@@ -54,7 +52,7 @@ export function Home() {
           <Grid container justifyContent="center">
             <Grid item>
               <Typography component="h1" variant="h4" noWrap className={style.titleTable}>
-                Lista de usuários cadastrados
+                Registros de usuários
               </Typography>
             </Grid>
           </Grid>

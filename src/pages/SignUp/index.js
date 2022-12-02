@@ -41,8 +41,7 @@ export function SignUp() {
           password,
         }
       );
-      toast.success('Conta criada com sucesso!')
-      toast.success('Você será redirecionado para a tela de login')
+      toast.success('Conta criada com sucesso. Você será redirecionado para a tela de login')
 
       setTimeout(() => {
         navigate('/');

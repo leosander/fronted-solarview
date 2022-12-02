@@ -47,9 +47,6 @@ export default function DataTable() {
         })
       }, []);
 
-      async function onFilterChange() {
-
-      }
   return (
     <div style={{ height: 550, width: '100%' }}>
       <DataGrid
